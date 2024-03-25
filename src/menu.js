@@ -78,7 +78,7 @@ const toastMeal = mealCreator();
 toastMeal.id = 'toast';
 const toastMealText = mealTextCreator();
 toastMealText.classList.add('toast');
-toastMealText.innerHTML = 'Eye toast';
+toastMealText.innerHTML = 'Toadstool Toast';
 const toastPrice = priceCreator();
 toastPrice.innerHTML = '20 Gold';
 toastMealText.appendChild(toastPrice);
